@@ -140,7 +140,7 @@ body {
 
 @media (max-width: 700px) {
     #logo {
-        height: 35vh; 
+        height: 28vh; 
     }
 
     #register {
@@ -148,13 +148,13 @@ body {
         top: 10px; 
         right: 10px; 
         margin: 0;
-        height: 6.5vh;
+        height: 5vh;
         font-size: 2.5vw;
         z-index: 100; 
     }
     
     #register:hover {
-        height: 6.5vh;
+        height: 5vh;
         width: auto; 
         font-size: 2.5vw; 
         color: black;
