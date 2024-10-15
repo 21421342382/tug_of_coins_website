@@ -137,39 +137,56 @@ body {
         }
     }
     #screenshot1 {
-        margin-top: 10px !important ;
-        flex-direction: column;
-        align-items: center; 
+        display: flex;
+        margin-top: 40px;
+        height: auto; 
+        width: 100%;  
+        flex-direction: row;  
+        flex-wrap: wrap; 
     }
-
+    
     #numering1 {
-        margin: 0; 
-        margin-top: 0px !important; 
-        margin-bottom: 10px;
+        margin: 10px !important;
+        margin-left:130px !important;
+        height: 12vh !important;
         width: 12vh !important;
         border-radius: 100px !important;
+        background-color: #DA8F30;
+        border: 2px solid white;
     }
-
+    
     #Image1 {
-        margin: 0;
-        margin-top: 0px; 
+        max-width: 100%;  
+        height: auto;   
+     }
+    
+    #Imageandtext {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;    
+        max-width: 100%;       
     }
-
-    #Imageandtext{
-        align-items: center;
-    }
-
+    
     #Imageandtext h2 {
-        text-align: center; 
-        margin-top: 5px !important; 
+        font-size: 4vh;
+        font-weight: 300;
+        color: white;
+        margin-top: 0px;
+        text-align: center;    
     }
-    #Image2{
-        align: center;
-        margin: 0 !important;
-        margin-left: 125px !important;
+    
+    #Imageandtext p {
+        color: grey;
+        font-size: 2vh;
+        font-weight: 100;
+        text-align: center;   
+        padding: 0 10px;        
     }
-    #Imageandtext p{
-        text-align: center;
+    
+    #Image2 {
+        max-width: 100%;  
+        height: auto;    
+        margin-top: 10px;
     }
 }
 
