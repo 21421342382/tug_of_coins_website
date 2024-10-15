@@ -35,7 +35,7 @@ body {
     color: transparent;
     z-index: -1 !important;
     opacity: 31%;
-    -webkit-text-stroke: 3px white;
+    -webkit-text-stroke: 1px white;
     margin: 0;
     animation: slide 12s linear infinite;
     white-space: nowrap;
@@ -50,7 +50,7 @@ body {
     }
 }
 
-#register {
+#contact {
     margin: 20px;
     position: relative;
     height: 5vh; 
@@ -67,7 +67,7 @@ body {
     transition: all 0.4s ease;
 }
 
-#register:hover {
+#contact:hover {
     background-color: white;
     color: #021331;
     margin-right: 10px;
@@ -110,11 +110,11 @@ body {
     #logo {
         height: 30vh; 
     }
-    #register {
+    #contact {
         margin: 10px;
         font-size: 2vw;
     }
-    #register:hover {
+    #contact:hover {
         height: 5vh;
         width: auto; 
         font-size: 2vw; 
@@ -136,6 +136,41 @@ body {
             transform: translateX(-100%);
         }
     }
+    #screenshot1 {
+        margin-top: 10px !important ;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    #numering1 {
+        margin: 0; 
+        margin-top: 0px !important; 
+        margin-bottom: 10px;
+        width: 12vh !important;
+        border-radius: 100px !important;
+    }
+
+    #Image1 {
+        margin: 0;
+        margin-top: 0px; 
+    }
+
+    #Imageandtext{
+        align-items: center;
+    }
+
+    #Imageandtext h2 {
+        text-align: center; 
+        margin-top: 5px !important; 
+    }
+    #Image2{
+        align: center;
+        margin: 0 !important;
+        margin-left: 125px !important;
+    }
+    #Imageandtext p{
+        text-align: center;
+    }
 }
 
 @media (max-width: 700px) {
@@ -143,7 +178,7 @@ body {
         height: 28vh; 
     }
 
-    #register {
+    #contact {
         position: absolute;
         top: 10px; 
         right: 10px; 
@@ -153,7 +188,7 @@ body {
         z-index: 100; 
     }
     
-    #register:hover {
+    #contact:hover {
         height: 5vh;
         width: auto; 
         font-size: 2.5vw; 
@@ -186,3 +221,64 @@ body {
         }
     }
 }
+
+
+#foursteps{
+    font-weight: 900;
+    font-size: 8vw; 
+    color: transparent;
+    opacity: 31%;
+    font-weight:900;
+    text-align: center;
+    -webkit-text-stroke: 1px white;
+    margin: 0;
+    margin-top :20px;
+    white-space: nowrap;
+}
+
+#screenshot1{
+    display: flex;
+    margin-top: 40px;
+    height: 50vh;
+    width: auto;
+}
+#numering1{
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 100px;
+    height: 12vh;
+    width: 24rem;
+    border-radius: 0px 20px 20px 20px;
+    background-color: #DA8F30;
+    border: 2px solid white;
+}
+#numering1 h1{
+    color: white;
+    text-align: center;
+    font-size: 5vh;
+}
+
+
+#Image2{
+   height: 10vh;
+   width: auto;
+   margin-top: 10px;
+   margin-left: 20px;
+
+
+}
+#Imageandtext p{
+    color: grey;
+    font-size: 2vh;
+    font-weight: 100;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+#Imageandtext h2{
+    margin-left: 20px;
+    font-size: 4vh;
+    font-weight: 300;
+    color: white;
+    margin-top:0px;
+}
+
